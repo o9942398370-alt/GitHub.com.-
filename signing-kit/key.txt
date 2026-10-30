@@ -1,0 +1,12 @@
+servers - APK signing key
+=========================
+File:            servers-release.p12   (PKCS12)
+Key alias:       servers
+Store password:  koA5x5dzfuOGpPXMjtLY
+Key password:    koA5x5dzfuOGpPXMjtLY
+SHA-256:         75:F0:E8:A6:9B:40:30:39:DB:93:39:C6:C3:12:CF:7B:76:CB:3C:19:38:83:6D:11:F0:63:D8:5D:28:C3:E9:92
+Valid for:       100 years
+
+Keep this file safe. Every future update of the app must be signed with this same key,
+otherwise Android will refuse to install it over the old version.
+The same key is already inside the project (app/servers-release.p12) and is used by the GitHub build.
